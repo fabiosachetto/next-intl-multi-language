@@ -8,20 +8,20 @@ export const routing = defineRouting({
 	// Used when no locale matches
 	defaultLocale: "pt",
   pathnames: {
-    "Escunas": {
-      "pt": "/Escunas",
-      "en": "/Schooners",
-      "es": "/Goletas"
+    "/escunas": {
+      "pt": "/escunas",
+      "en": "/schooners",
+      "es": "/goletas"
     },
-    "Jeeps": {
-      "pt": "/Jeeps",
-      "en": "/Jeeps",
-      "es": "/Jeeps"
+    "/jeeps": {
+      "pt": "/jeeps",
+      "en": "/jeeps",
+      "es": "/jeeps"
     },
-    "Privativos": {
-      "pt": "/Privativos",
-      "en": "/Private",
-      "es": "/Privados"
+    "/privativos": {
+      "pt": "/privativos",
+      "en": "/private",
+      "es": "/privados"
     }
   }
 });
