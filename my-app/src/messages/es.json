@@ -1,9 +1,18 @@
 {
   "HomePage": {
-    "title": "Home Page",
-    "Escuna": { 
-    "title": "ES - Escuna"
-  },
-    "description": "Esta es la página de inicio."
+    "title": "ES - Página Inicial",
+    "Escunas": {
+      "title": "ES - Escunas",
+      "title_link": "ES - Página de Escunas"
+    },
+    "Jeeps": {
+      "title": "ES - Jepp",
+      "title_link": "ES - Página de Jepp"
+    },
+    "Privativos": {
+      "title": "ES - Privativos",
+      "title_link": "ES - Página de Privativos",
+      "subtitle": "ES - LANCHAS, VELEIROS E MAIS"
+    }
   }
 }
