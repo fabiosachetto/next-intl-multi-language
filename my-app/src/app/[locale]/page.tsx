@@ -12,8 +12,8 @@ export default async function HomePage() {
       </div>
 
       <div>
-        <h2>{t("Jeeps.title")}</h2>
-        <Link href="/jeeps" className="text-red-600 hover:bg-slate-400">{t("Jeeps.title_link")}</Link>
+        <h2>{t("Jeep.title")}</h2>
+        <Link href="/jeep" className="text-red-600 hover:bg-slate-400">{t("Jeep.title_link")}</Link>
       </div>
 
       <div>
