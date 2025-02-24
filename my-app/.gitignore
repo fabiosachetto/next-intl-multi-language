@@ -19,7 +19,7 @@
 /out/
 
 # production
-/build
+# /build
 
 # misc
 .DS_Store
@@ -39,4 +39,4 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+# next-env.d.ts
