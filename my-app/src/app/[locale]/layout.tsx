@@ -1,10 +1,10 @@
 import Navbar from "@/components/NavBar";
-import { Locale, routing } from "@/i18n/routing";
+// import { Locale, routing } from "@/i18n/routing";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import localFont from "next/font/local";
-import { notFound } from "next/navigation";
+// import { notFound } from "next/navigation";
 import "./globals.css";
 import { ReactNode } from "react";
 
@@ -26,28 +26,31 @@ export const metadata: Metadata = {
 
 interface LayoutProps {
   children: ReactNode;
-  params: {
-    locale: "pt" | "en" | "es";
-  };
+  // params: {
+  //   locale: "pt" | "en" | "es";
+  // };
 }
 
-export default async function RootLayout({ children, params }: LayoutProps) {
+// export default async function RootLayout({ children, params }: LayoutProps) {
+export default async function RootLayout({ children }: LayoutProps) {
   // export default async function RootLayout({ children, params,}: Readonly<{
   //   children: React.ReactNode;
   //   params: { locale: Locale };
   // }>) {
-  const { locale } =  params;
-  if (!routing.locales.includes(locale as Locale)) {
-    notFound();
-  }
+
+  // const { locale } = params;
+  // if (!routing.locales.includes(locale as Locale)) {
+  //   notFound();
+  // }
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
   return (
     // <html lang={locale}>
-    <html lang={params.locale}>
+    <html lang="pt">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        cz-shortcut-listen="true">
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
