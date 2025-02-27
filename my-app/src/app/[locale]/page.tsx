@@ -6,6 +6,7 @@ export default async function HomePage() {
   return (
     <div>
       <h1>{t("title")}</h1>
+      
       <div>
         <h2>{t("Escunas.title")}</h2>
         <Link href="/escunas" className="text-red-600 hover:bg-slate-400">{t("Escunas.title_link")}</Link>
