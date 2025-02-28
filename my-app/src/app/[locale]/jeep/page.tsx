@@ -7,7 +7,7 @@ export default async function JeepsPage() {
   return (
     <div>
       <h1>{t("title")}</h1>
-      <Link href="/">{t("link")}</Link>
+      <Link href={{ pathname: "" }}>{t("link")}</Link>
     </div>
   );
 }
