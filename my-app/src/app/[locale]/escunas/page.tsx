@@ -1,10 +1,12 @@
 import { Link } from "@/i18n/routing";
+import { getTranslations } from "next-intl/server";
 
-export default function EscunasPage() {
+export default async function EscunasPage() {
+  const t = await getTranslations("EscunasPage");
   return (
     <div>
-      <h1>Escunas</h1>
-      <Link href="/">Clique aqui para voltar a Home</Link>
+      <h1>{t("title")}</h1>
+      <Link href="/">{t("link")}</Link>
     </div>
   );
 }

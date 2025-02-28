@@ -1,6 +1,5 @@
 {
   "HomePage": {
-    "flag": "https://http2.mlstatic.com/D_NQ_NP_666013-MLB75498918068_042024-O.webp",
     "title": "PT - Página Inicial",
     "Escunas": {
       "title": "PT - Escunas",
@@ -15,5 +14,9 @@
       "title_link": "PT - Página de Privativos",
       "subtitle": "PT - LANCHAS, VELEIROS E MAIS"
     }
+  },
+  "EscunasPage": {
+    "title": "PT - Escunas",
+    "link": "PT - Clique aqui para voltar para HomePage"
   }
 }

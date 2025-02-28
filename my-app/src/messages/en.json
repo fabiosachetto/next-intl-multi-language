@@ -1,6 +1,5 @@
 {
   "HomePage": {
-    "flag": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQWv04Ev6l4u15ETKpUqQ7UQ3uM8Z6-ISjJHvv-Vq_jwtBznctTo8v7rN6tNmYnZa_zLcpOu1GCMiIhDWozbCoyJqeJeUVD44MErNW8gi_ditHgNXll6FFSe6ZQoXmaxd-TylytzdE&usqp=CAc",
     "title": "Home Page",
     "Escunas": {
       "title": "EN - Escunas",
@@ -16,25 +15,8 @@
       "subtitle": "EN - LANCHAS, VELEIROS E MAIS"
     }
   },
-  "Escunas": {
-    "title": "Escunas",
-    "EscunaCincoParadas": {
-      "title": "EN - ROTEIRO COM 5 PARADAS",
-      "roteiro": "EN - Ilha dos Cocos, Praia da Lula, Lagoa Azul, Praia Vermelha e Ilha Comprida.",
-      "inicio" : "EN - 10h30",
-      "retorno": "EN - 16h00",
-      "servicos": "EN - Bar e restaurante a bordo, música ao vivo e fotógrafo profissional.",
-      "alerta": "EN - Não é permitido embarcar com cooler e caixa de som!",
-      "valor": "EN - 100,00"
-    },
-    "Jeep": {
-      "title": "EN - Jeep",
-      "title_link": "EN - Página de Jeep"
-    },
-    "Privativos": {
-      "title": "EN - Privativos",
-      "title_link": "EN - Página de Privativos",
-      "subtitle": "EN - LANCHAS, VELEIROS E MAIS"
-    }
+  "EscunasPage": {
+    "title": "EN - Escunas",
+    "link": "EN - Clique aqui para voltar para HomePage"
   }
 }
