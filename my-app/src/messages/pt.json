@@ -18,5 +18,13 @@
   "EscunasPage": {
     "title": "PT - Escunas",
     "link": "PT - Clique aqui para voltar para HomePage"
+  },
+  "JeepPage": {
+    "title": "PT - Jeep",
+    "link": "PT - Clique aqui para voltar para HomePage"
+  },
+  "PrivativosPage": {
+    "title": "PT - Privativos",
+    "link": "PT - Clique aqui para voltar para HomePage"
   }
 }

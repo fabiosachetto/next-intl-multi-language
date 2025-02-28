@@ -1,10 +1,12 @@
 import { Link } from "@/i18n/routing";
+import { getTranslations } from "next-intl/server";
 
-export default function PrivativosPage() {
+export default async function PrivativosPage() {
+  const t = await getTranslations("PrivativosPage");
   return (
     <div>
-      <h1>Privativos</h1>
-      <Link href="/">Clique aqui para voltar a Home</Link>
+      <h1>{t("title")}</h1>
+      <Link href="/">{t("link")}</Link>
     </div>
   );
 }
