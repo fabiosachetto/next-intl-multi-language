@@ -6,10 +6,25 @@ export const routing = defineRouting({
   locales: ["pt", "en", "es"],
   defaultLocale: "pt",
   pathnames: {
-    "": {
-      pt: "",
-      en: "",
-      es: "",
+    "/": {
+      pt: "/",
+      en: "/",
+      es: "/",
+    },
+    "/escunas": {
+      pt: "/escunas",
+      en: "/escunas",
+      es: "/escunas",
+    },
+    "/jeep": {
+      pt: "/jeep",
+      en: "/jeep",
+      es: "/jeep",
+    },
+    "/privativos": {
+      pt: "/privativos",
+      en: "/privativos",
+      es: "/privativos",
     },
   },
 });

@@ -6,7 +6,7 @@ export default async function PrivativosPage() {
   return (
     <div>
       <h1>{t("title")}</h1>
-      <Link href={{ pathname: "" }}>{t("link")}</Link>
+      <Link href={{ pathname: "/" }}>{t("link")}</Link>
     </div>
   );
 }
