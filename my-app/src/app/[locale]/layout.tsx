@@ -11,6 +11,7 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -22,10 +23,9 @@ export const metadata: Metadata = {
   description:
     "Funcionalidade trilíngue utilizando next-intl – Internationalization (i18n) para Next.js",
 };
-
 interface LayoutProps {
   children: ReactNode;
-}
+};
 
 export default async function RootLayout({ children }: LayoutProps) {
   const messages = await getMessages();
